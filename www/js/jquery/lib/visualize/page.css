@@ -1,0 +1,136 @@
+.visualize {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #BBBBBB;
+    margin: 10px auto 40px;
+    position: relative;
+    z-index: 1;
+}
+.visualize canvas {
+    position: absolute;
+}
+.visualize ul, .visualize ul li {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0;
+    padding: 0;
+}
+.visualize-bar {
+    border-top: 0 none;
+}
+.visualize .visualize-info {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #AAAAAA;
+    font-size: 11px;
+    padding: 0 3px 2px 13px;
+    position: absolute;
+    right: 10px;
+    top: -15px;
+}
+.visualize .visualize-title {
+    color: #333333;
+    display: block;
+    margin-bottom: 3px;
+}
+.visualize ul.visualize-key {
+    list-style: none outside none;
+}
+.visualize ul.visualize-key li {
+    float: left;
+    list-style: none outside none;
+    margin-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+.visualize ul.visualize-key .visualize-key-color {
+    font-size: 6px;
+    height: 6px;
+    left: 0;
+    margin-top: -3px;
+    position: absolute;
+    top: 50%;
+    width: 6px;
+}
+.visualize ul.visualize-key .visualize-key-label {
+    color: #333333;
+}
+.visualize-pie .visualize-labels {
+    list-style: none outside none;
+}
+.visualize-pie .visualize-label-pos, .visualize-pie .visualize-label {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.visualize-pie .visualize-label {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+}
+.visualize-pie-outside .visualize-label {
+    color: #000000;
+    font-weight: normal;
+}
+.visualize-labels-x, .visualize-labels-y {
+    left: 0;
+    list-style: none outside none;
+    position: absolute;
+    top: 0;
+}
+.visualize-labels-x li, .visualize-labels-y li {
+    bottom: 0;
+    position: absolute;
+}
+.visualize-labels-x li span.label, .visualize-labels-y li span.label {
+    color: #777777;
+    position: absolute;
+}
+.visualize-labels-x li span.line, .visualize-labels-y li span.line {
+    border: 0 solid #DDDDDD;
+    position: absolute;
+}
+.visualize-labels-x li {
+    font-size: 10px;
+    height: 100%;
+}
+.visualize-labels-x li span.label {
+    margin-top: 5px;
+    top: 100%;
+}
+.visualize-labels-x li span.line {
+    border-left-width: 1px;
+    display: block;
+    height: 100%;
+}
+.visualize-labels-y li {
+    font-size: 10px;
+    line-height: normal;
+    width: 100%;
+}
+.visualize-labels-y li span.label {
+    display: block;
+    margin-right: 5px;
+    right: 100%;
+    text-align: right;
+    width: 100px;
+}
+.visualize-labels-y li span.line {
+    border-top-width: 1px;
+    width: 100%;
+}
+.visualize-bar .visualize-labels-x li span.label {
+    text-align: center;
+    width: 100%;
+}
+.visualize .chart_tooltip {
+    background: url("tt.png") repeat scroll 0 0 transparent;
+    border: 1px solid #000000;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 #555555 inset;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 3px 4px 0;
+    padding: 6px 7px;
+    text-shadow: 0 1px 0 #000000;
+}

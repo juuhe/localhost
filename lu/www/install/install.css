@@ -1,0 +1,230 @@
+html, body, div, dl, dt, dd, ul, p, th, td, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px/1.5 Arial, Microsoft Yahei, Simsun;
+	color: #666;
+}
+.wrap {
+	margin: 50px auto 0;
+	border: 1px solid #B5CFD9;
+	width: 750px;
+	background: #fff;
+}
+.header {
+	height: 80px;
+	border-bottom: 1px solid #B5CFD9;
+	position: relative;
+	color: #fff;
+	background: #246fa6 url(images/header.png) 0 0 repeat-x;
+}
+.logo {
+	float: left;
+	width: 280px;
+	height: 80px;
+	background: url(images/logo.png) no-repeat;
+	overflow: hidden;
+	text-indent: -2000em;
+}
+.icon_install {
+	float: left;
+	margin-top: 35px;
+	width: 90px;
+	height: 30px;
+	overflow: hidden;
+	background: url(images/icon_install.png) no-repeat;
+	text-indent: -2000em;
+}
+.version {
+	color: #666;
+	float: right;
+	margin: 50px 25px 0 0;
+}
+.container {
+}
+.main {
+	padding-top: 35px;
+	zoom: 1;
+}
+.pact {
+	border: 1px solid #eee;
+	width: 670px;
+	height: 350px;
+	padding: 10px;
+	overflow: hidden;
+	display: block;
+	overflow-y: scroll;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: 22px;
+	outline: none;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	word-break: normal;
+}
+.bottom {
+	padding: 0 0 25px;
+	text-align: center !important;
+}
+.footer {
+	text-align: center;
+	padding: 15px 0 50px;
+	color: #999999;
+}
+.footer a {
+	color: #999;
+	text-decoration: none;
+}
+.btn {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: url(./images/btn.png) no-repeat;
+	font: bold 14px/30px Arial, "Microsoft Yahei", Simsun;
+	text-decoration: none;
+	color: #fff !important;
+	margin: 0 5px;
+	border: 0 none;
+	cursor: pointer;
+	vertical-align: top;
+}
+li {
+	list-style: none;
+}
+em, strong, th {
+	font-style: normal;
+}
+.step, .step li em, .step li {
+	background: url(./images/step.png) repeat-x;
+}
+.step {
+	border-bottom: 1px solid #dce1e5;
+	height: 60px;
+	background-color: #fff;
+}
+.step li {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 25%;
+	text-align: center;
+	font-size: 14px;
+	color: #6f7885;
+	font-weight: 700;
+}
+.step li em {
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	display: inline-block;
+	background-position: 0 -70px;
+	font-size: 20px;
+	color: #fff;
+	font-family: Microsoft Yahei;
+	margin-right: 10px;
+	vertical-align: 0;
+}
+.step li.current {
+	background-position: right -106px;
+	background-repeat: no-repeat;
+	color: #246ea5;
+}
+.step li.current em {
+	background-position: -35px -70px;
+}
+.step li.on {
+	background-position: 0 -176px;
+}
+.step li.on em {
+	background-position: -70px -70px;
+}
+.server {
+	padding: 20px 20px 10px 65px;
+	background: #F7FBFE url(images/bg_repx.gif) repeat-x 0 -194px;
+}
+.server table {
+	margin-bottom: 20px;
+}
+.server td {
+	padding: 3px 5px;
+}
+.server .td1 {
+	color: #417b9d;
+	font-weight: 700;
+}
+.server .input {
+	border: 1px solid;
+	border-color: #e3e9ef;
+	padding: 3px;
+	width: 200px;
+}
+.server .input:hover, .server .input:focus {
+	border: 1px solid #0e85d5;
+	outline: none;
+}
+.gray {
+	color: #bbb;
+}
+.server tr:hover .gray {
+	color: #333;
+}
+.input_text {
+	padding: 3px;
+	width: 200px;
+}
+.mgs_text {
+	color: #cc3333;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: url(images/tips_system.png) -20px 1px no-repeat;
+}
+.f_error span.error, .frc_error span.error {
+	font-size: 11px;
+	font-weight: 700;
+	color: #C62626;
+	padding-left: 20px;
+}
+.db_main{background: #F7FBFE url(images/bg_repx.gif) repeat-x 0 -194px; padding:30px; }
+.notice {
+	overflow: hidden;
+	
+	padding: 10px;
+	height: 300px;
+	border: 1px solid #B5CFD9;
+	text-align: left;
+	
+}
+.loading {
+	
+	margin-bottom: 20px;
+	text-align: center;
+	color: #f00;
+}
+.loading img {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+.correct_span,.error_span {
+display: block;
+float: left;
+width: 20px;
+height: 16px;
+text-indent: -2000em;
+overflow: hidden;
+background: url(images/icon.png) no-repeat;
+margin-right: 5px;
+}
+
+.error_span {
+ 
+background-position: 0 -23px;
+}

@@ -1,0 +1,41 @@
+.content {
+	width: 520px;
+	margin: 100px auto auto auto;
+}
+.error-box {
+	padding-left: 120px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	color: #666;
+	border-bottom: 1px dashed #ddd;
+	background: url(../images/intercept_bg.png) 1px 30px no-repeat;
+}
+#h_default {
+	color: #a6a6a6;
+}
+.error-box p,.error_url p {
+	font-family: "Î¢ÈíÑÅºÚ", "ËÎÌå";
+	font-size: 14px;
+	padding: 8px 0 3px;
+	white-space: nowrap;
+}
+#error_header {
+	color: #EB6100;
+	font-size: 24px;
+}
+.btn-inverse {
+	background-image: url(../images/submit_51a351.jpg);
+}
+.btn {
+	cursor: pointer;
+	background-color: #ffffff;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: center;
+	border: 0 solid #000000;
+	text-align: center;
+	width: 97px;
+	color: #FFFFFF;
+	height: 30px;
+	line-height: 30px;
+}

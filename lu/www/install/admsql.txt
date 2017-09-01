@@ -1,0 +1,1 @@
+INSERT INTO `zyads_administrator` (`username`, `password`, `rolesid`,  `status`, `addtime`) VALUES('admin', 'c798d3a9518d8d224b971a1da7c6bc07', 1,1,'2017-08-16 17:02:41')

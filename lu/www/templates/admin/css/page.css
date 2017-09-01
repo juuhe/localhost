@@ -1,0 +1,77 @@
+
+
+
+
+
+.zpage_str {
+		width: 38%;
+		 float: left;
+}
+
+.zpage{
+	float: right;	 
+		
+}
+.zpage li a {
+background: #fff;
+line-height: 24px;
+padding: 0 10px;
+float: left;
+border: 1px solid #ddd;
+border-left-width: 0;
+}
+
+
+.zpage .data{
+		float: right;
+		margin: 0;
+		height: auto;
+		 
+		 
+	}
+		.zpage .data ul {
+			margin-bottom: 0;
+			margin-left: 0;
+			padding-top:3px;
+		}
+		
+		.zpage .data ul li {
+			display: inline;
+		}
+		
+		 .zpage .data ul li a {
+			
+			background: #fff;
+			line-height: 24px;
+			padding: 0 10px;
+			float: left;
+			border: 1px solid #ddd;
+			border-left-width: 0;
+		}
+		
+		 .zpage .data   .prev a{
+ 
+		 	border-left-width: 1px;
+			-webkit-border-bottom-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+			-webkit-border-top-left-radius: 4px;
+			border-top-left-radius: 4px;
+			-moz-border-radius-bottomleft: 4px;
+			-moz-border-radius-topleft: 4px;  
+ 
+			
+		 }
+		
+		.zpage .data   .next a{
+		 	-webkit-border-top-right-radius: 4px;
+			border-top-right-radius: 4px;
+			-webkit-border-bottom-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			-moz-border-radius-topright: 4px;
+			-moz-border-radius-bottomright: 4px;  
+		 }
+		 
+		 .zpage .data   .active a{
+		 	color: #666;
+		 }
+	 
